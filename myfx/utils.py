@@ -11,7 +11,7 @@ def fetch_xauusd(latest_only=True):
     If latest_only=True, fetch only the most recent hour(s) not already in DB.
     Discards incomplete "future" candles.
     """
-    api_key = os.environ.get("apiKey_twelvedata")
+    api_key = os.environ.get("TWELVEDATA_API_KEY")
     if not api_key:
         print("Error: Twelve Data API key not found in environment variables")
         return False
