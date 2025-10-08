@@ -54,7 +54,7 @@ function FxPrediction() {
   // ✅ Use environment-based BASE_URL
   const BASE_URL =
     process.env.NODE_ENV === 'production'
-      ? 'https://zone2rock.com'
+      ? 'https://www.zone2rock.com'
       : 'http://localhost:8000';
 
   const fetchRealData = async () => {
