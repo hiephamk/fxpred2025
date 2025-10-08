@@ -10,4 +10,5 @@ pandas
 numpy
 scikit-learn
 twelvedata
+torch
 
