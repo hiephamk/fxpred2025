@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY') or 'django-insecure-v6ll%tqf_n!2+-9id*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'fxpred2025.onrender.com', '.onrender.com', 'www.zone2rock.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'fxpred2025.onrender.com', '.onrender.com', 'www.zone2rock.com', 'zone2rock.com']
 
 
 # Application definition
