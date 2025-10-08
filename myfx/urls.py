@@ -14,5 +14,4 @@ urlpatterns = [
     path('forex/real-data/latest-data/', views.fetch_latest_data, name='latest_real_data'),
     path('forex/predictions/history/', views.PredictedForexDataView.as_view(), name='predictions_history'),
     path('forex/real_data/', views.ForexDataView.as_view(), name='forex_real_data'),
-    path('', TemplateView.as_view(template_name='index.html')),
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]
