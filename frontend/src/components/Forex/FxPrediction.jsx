@@ -52,10 +52,7 @@ function FxPrediction() {
   const [hours] = useState(2);
 
   // ✅ Use environment-based BASE_URL
-  const BASE_URL =
-    process.env.NODE_ENV === 'production'
-      ? 'https://www.zone2rock.com'
-      : 'http://localhost:8000';
+  const BASE_URL = 'https://www.zone2rock.com'
 
   const fetchRealData = async () => {
     const url = `${BASE_URL}/api/forex/real_data/`;
