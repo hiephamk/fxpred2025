@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: fxpred-backend
+    env: python
+    plan: free
+    buildCommand: |
+      pip install -r requirements.txt
+      cd frontend && npm ci && npm run build && cd ..
+    startCommand: gunicorn backend.wsgi:application
+    envVars:
+      - key: SECRET_KEY
+        sync: false
+      - key: DEBUG
+        value: False
+      - key: TWELVEDATA_API_KEY
+        sync: false
+

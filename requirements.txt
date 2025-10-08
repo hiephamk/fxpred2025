@@ -1,0 +1,13 @@
+Django==5.2.7
+asgiref==3.10.0
+pytz
+sqlparse==0.5.3
+gunicorn
+whitenoise
+django-cors-headers
+djangorestframework
+pandas
+numpy
+scikit-learn
+twelvedata
+
