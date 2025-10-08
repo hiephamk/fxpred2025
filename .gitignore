@@ -1,0 +1,9 @@
+fx-venv/
+node_modules/
+frontend/build/
+staticfiles/
+db.sqlite3
+*.pyc
+__pycache__/
+.env
+.DS_Store
