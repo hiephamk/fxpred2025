@@ -3,7 +3,7 @@ asgiref==3.10.0
 pytz
 sqlparse==0.5.3
 gunicorn
-whitenoise
+whitenoise==6.6.0
 django-cors-headers
 djangorestframework
 pandas

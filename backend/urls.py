@@ -8,5 +8,5 @@ urlpatterns = [
     # Prefer myfx endpoints when present
     path('api/', include('myfx.urls')),
     path('api/', include('myfx.urls')),
-    re_path(r'^(?:.*)/?$', TemplateView.as_view(template_name='index.html')),
+    re_path(r'^.*$', TemplateView.as_view(template_name='index.html')),
 ]
