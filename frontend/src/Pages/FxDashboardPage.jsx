@@ -11,14 +11,14 @@ const FxDashboardPage = () => {
         <Box>
           <FxPrediction/>
         </Box>
-        <HStack gap={"20px"}>
+        {/* <HStack gap={"20px"}>
           <Box border={"1px solid"}>
             <RealFxData/>
           </Box>
           <Box border={"1px solid"}>
             <FxPredictionResult/>
           </Box>
-        </HStack>
+        </HStack> */}
       </VStack>
     </Box>
   )

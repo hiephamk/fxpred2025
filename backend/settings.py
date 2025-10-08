@@ -118,4 +118,6 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'https://fxpred2025.onrender.com',
+    'https://www.zone2rock.com', 
+    'https://zone2rock.com',
 ]
