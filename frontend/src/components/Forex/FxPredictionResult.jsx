@@ -12,7 +12,7 @@ const FxPredictionResult = () => {
       const res = await axios.get(url)
       let sortedData = res.data
       sortedData = sortedData
-        .sort((a, b => new Date(b.date).getTime() - new Date(a.date).getTime()))
+        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
         .slice(0,5)
       setPredicted(sortedData)
       

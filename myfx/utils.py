@@ -21,7 +21,7 @@ def fetch_xauusd(latest_only=True):
         ts = td.time_series(
             symbol="XAU/USD",
             interval="1h",
-            outputsize=2000,
+            outputsize=240,
         ).as_json()
 
         # Normalize response
