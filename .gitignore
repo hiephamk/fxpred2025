@@ -1,7 +1,5 @@
 fx-venv/
 node_modules/
-frontend/build/
-staticfiles/
 db.sqlite3
 *.pyc
 __pycache__/
