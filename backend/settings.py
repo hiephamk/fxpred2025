@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY') or 'django-insecure-v6ll%tqf_n!2+-9id*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'fxpred2025.onrender.com', '.onrender.com']
 
 
 # Application definition
@@ -131,10 +131,11 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS settings for local development
+# CORS settings for local development and production
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://localhost:3000',
     'http://127.0.0.1:3000',
+    'https://fxpred2025.onrender.com',
 ]
